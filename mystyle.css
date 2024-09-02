@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+   
+    
+}
+
+.navbar-container{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+
+}
+
+.content-container li {
+    
+        max-width: 600px; /* Atur lebar maksimum elemen <li> */
+        margin-bottom /* Tambahkan jarak di bawah setiap elemen <li> */
+        word-wrap: break-word; /* Memastikan kata panjang terbungkus ke baris berikutnya */
+        
+}
+
+.ul-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100px;
+    
+}
+.li-container{
+display: flex;
+color: aliceblue;
+font-size: 50px;
+position: relative;
+right: 50px;
+justify-content: center;
+
+}
+
+.zahran-container{
+    font-size: 40px;
+    color: grey;
+    position: relative;
+    top: 250px;
+    left: 30px;
+    list-style-type: none;
+    
+}
+
+.video-container{
+    width: 15%;
+    height: 15%;
+ position: relative;
+ top: -60px;
+  left: 1250px;
+  border-radius: 50px; 
+  
+}
+
+.video2-container{
+    width: 15%;
+    height: 15%;
+ position: relative;
+ top: -60px;
+  left: 770px;
+  border-radius: 50px; 
+
+}
+
+.video3-container{
+    width: 15%;
+    height: 15%;
+ position: relative;
+ top: -60px;
+  left: 290px;
+  border-radius: 50px; 
+
+}
+
+.videoeditor-container {
+    font-size: 20px;
+    color: grey;
+    position: relative;
+    top: 250px;
+    left: 30px;
+    list-style-type: none;
+    
+    
+}
+
+.han-container{
+    position: relative;
+    top: -500px;
+    left: 30px;  
+    border-radius: 50px; 
+    height: 10%;
+    width: 10%;
+    
+}
+
+.socialmedia-container{
+    position: relative;
+    top: -670px;
+    left: 190px;
+    list-style-type: none;
+    width: 100vh;
+}
+.sosmed1-container{
+    width: 7%;
+    position: relative;
+    left: 8px;
+  
+}
+
+.sosmed2-container{
+    width: 8%;
+}
+
+.sosmed3-container{
+    width: 5%;
+    position: relative;
+    left: 8px;
+}
+
